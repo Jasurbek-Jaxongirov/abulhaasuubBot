@@ -4,8 +4,12 @@
   "description": "Avom insonlarning o'zlarini qutqarish, hamda fikr almashish yo'lida qilgan arzimas ishi.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node app",
+    "dev":"nodemon app"
   },
   "author": "Jasur Jakhongirov",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-telegram-bot-api": "^0.51.0"
+  }
 }
